@@ -11,7 +11,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -62,14 +61,10 @@ btn.addEventListener("click", () => {
 })
 ``` 
 
-### Continued development
-
-
-
 ### Useful resources
 
 - [Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- [Fitch API](https://elzero.org/javascript-2021-fetch-api/) - .
+- [Fitch API](https://elzero.org/javascript-2021-fetch-api/)
 
 ## Author
 
