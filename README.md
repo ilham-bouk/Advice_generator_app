@@ -1,6 +1,6 @@
 # Frontend Mentor - Advice generator app solution
 
-This is a solution to the [Advice generator app challenge on Frontend Mentor] (https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help improve coding skills by building realistic projects. 
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help improve coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -41,26 +41,35 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid CSS
 - Desktop-first workflow
 - Fitch API
 
 ### What I learned
 
-This challenge provided valuable practice for my coding skills, particularly in styling backgrounds and images.
+This challenge provided valuable practice for my coding skills, Especially since I don't used fitch api for a long time.
 
-```css
-
+```js
+btn.addEventListener("click", () => {
+  fetch(apiUrl)
+    .then((response) => response.json())
+    .then((response) => {
+      // console.log(response);
+      let data = response.slip;
+      advNum.innerHTML = data.id;
+      advQuote.innerHTML = data.advice;
+    }).catch(error => console.error(error));
+})
 ``` 
 
 ### Continued development
 
-I intended to add features that close one submenu when another is opened, but I forgot to implement this.
 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - .
-- [Example resource 2](https://www.example.com) - .
+- [Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [Fitch API](https://elzero.org/javascript-2021-fetch-api/) - .
 
 ## Author
 
